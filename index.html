@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="emoji-box">
+    <h2>The universal emoji translator </h2>
+    <br>
+    <input class="InputMessage" placeholder="Insert your message here" onkeyup="suggestEmoji(event)"> 
+    <br>
+    <button class="clearButton translateButton" onclick="clearOutput()"> Clear </button>
+    <br>
+    <div class="output"></div>
+    <div class="emoji-suggestion"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
